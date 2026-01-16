@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Vulpes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <svg class="logo-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <!-- CABEÇA -->
+          <circle cx="20" cy="15" r="10" fill="#1e90ff"/>
+          <!-- ORELHAS -->
+          <polygon points="12,8 8,0 14,6" fill="#0b0f1a"/>
+          <polygon points="28,8 32,0 26,6" fill="#0b0f1a"/>
+          <!-- OLHOS -->
+          <circle cx="17" cy="12" r="1.5" fill="#0b0f1a"/>
+          <circle cx="23" cy="12" r="1.5" fill="#0b0f1a"/>
+          <!-- FOCINHO -->
+          <circle cx="20" cy="18" r="3" fill="#e0e0e0"/>
+          <!-- NARIZ -->
+          <circle cx="20" cy="18" r="1" fill="#0b0f1a"/>
+        </svg>
+        Vulpes
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#conteudos">Conteúdos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+  <div class="container hero-grid">
+
+    <!-- TEXTO -->
+    <div class="hero-text">
+      <h1>Aprenda programação de forma clara e objetiva</h1>
+      <p>
+        O Vulpes é um projeto educacional focado em algoritmos,
+        lógica e desenvolvimento moderno.
+      </p>
+      <a href="#conteudos" class="btn"><span>Explorar Conteúdos</span></a>
+    </div>
+
+    <!-- IMAGEM (SVG) -->
+    <div class="hero-visual">
+      <svg class="fox" viewBox="0 0 240 280" xmlns="http://www.w3.org/2000/svg">
+        <!-- CORPO -->
+        <ellipse cx="120" cy="160" rx="55" ry="70" fill="#1e90ff" class="fox-body"/>
+        
+        <!-- PEITO/BARRIGA (branco) -->
+        <ellipse cx="120" cy="170" rx="35" ry="50" fill="#e0e0e0" class="fox-belly"/>
+        
+        <!-- CABEÇA (maior e mais pronunciada) -->
+        <circle cx="120" cy="70" r="50" fill="#1e90ff" class="fox-head"/>
+        
+        <!-- ORELHAS EXTERNAS -->
+        <polygon points="80,25 65,0 85,30" fill="#0b0f1a" class="fox-ear fox-ear-left"/>
+        <polygon points="160,25 175,0 155,30" fill="#0b0f1a" class="fox-ear fox-ear-right"/>
+        
+        <!-- ORELHAS INTERNAS (azul) -->
+        <polygon points="82,22 72,5 85,27" fill="#1e90ff" class="fox-ear-inner"/>
+        <polygon points="158,22 168,5 155,27" fill="#1e90ff" class="fox-ear-inner"/>
+        
+        <!-- FOCINHO (mais destacado) -->
+        <ellipse cx="120" cy="90" rx="32" ry="26" fill="#e0e0e0" class="fox-snout"/>
+        
+        <!-- FOCINHO INTERIOR -->
+        <ellipse cx="120" cy="92" rx="22" ry="18" fill="#f0f0f0" class="fox-snout-inner"/>
+        
+        <!-- NARIZ -->
+        <ellipse cx="120" cy="88" rx="8" ry="7" fill="#0b0f1a" class="fox-nose"/>
+        
+        <!-- BOCA -->
+        <path d="M 120 95 Q 115 100 110 98" stroke="#0b0f1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M 120 95 Q 125 100 130 98" stroke="#0b0f1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        
+        <!-- OLHOS (maiores e mais expressivos) -->
+        <circle cx="100" cy="55" r="8" fill="#0b0f1a" class="fox-eye"/>
+        <circle cx="140" cy="55" r="8" fill="#0b0f1a" class="fox-eye"/>
+        
+        <!-- BRILHO NOS OLHOS -->
+        <circle cx="102" cy="52" r="2.5" fill="#ffffff" class="fox-eye-shine"/>
+        <circle cx="142" cy="52" r="2.5" fill="#ffffff" class="fox-eye-shine"/>
+        
+        <!-- PATAS DIANTEIRAS -->
+        <rect x="95" y="220" width="15" height="45" rx="7" fill="#1e90ff" class="fox-paw"/>
+        <rect x="130" y="220" width="15" height="45" rx="7" fill="#1e90ff" class="fox-paw"/>
+        
+        <!-- CAUDA (dentro do viewBox, sem sair) -->
+        <g class="fox-tail-group">
+          <path d="M 75 165 Q 35 150 25 110 Q 20 80 35 60" stroke="#0b0f1a" stroke-width="26" fill="none" stroke-linecap="round" class="fox-tail-black"/>
+          <path d="M 75 165 Q 37 152 27 112 Q 22 82 36 62" stroke="#1e90ff" stroke-width="20" fill="none" stroke-linecap="round" class="fox-tail-blue"/>
+        </g>
+      </svg>
+    </div>
+
+  </div>
+</section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="container grid">
+      <div>
+        <h2>O que é o Vulpes?</h2>
+        <p>
+          O Vulpes nasceu como um projeto educacional para facilitar o aprendizado
+          de lógica de programação, algoritmos e linguagens de forma simples e prática.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Foco Educacional</h3>
+        <p>Conteúdos diretos, exemplos claros e base sólida para iniciantes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTEÚDOS -->
+  <section class="section dark" id="conteudos">
+    <div class="container">
+      <h2 class="center">Principais Conteúdos</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Algoritmos</h3>
+          <p>Entenda a lógica por trás da programação.</p>
+        </div>
+        <div class="card">
+          <h3>HTML & CSS</h3>
+          <p>Criação de interfaces modernas e responsivas.</p>
+        </div>
+        <div class="card">
+          <h3>Java</h3>
+          <p>Base sólida em programação orientada a objetos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto para começar?</h2>
+      <a href="#contato" class="btn outline"><span>Entre em contato</span></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contato">
+    <div class="container footer-grid">
+      <div>
+        <h3>Vulpes</h3>
+        <p>Projeto educacional em programação.</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Conteúdos</a>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <p>Email: contato@vulpes.dev</p>
+      </div>
+    </div>
+
+    <p class="copyright">
+      © 2026 - Vulpes. Todos os direitos reservados.
+    </p>
+  </footer>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

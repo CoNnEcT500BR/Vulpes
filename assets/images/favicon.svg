@@ -1,0 +1,18 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- CABEÇA -->
+  <circle cx="32" cy="28" r="18" fill="#1e90ff"/>
+  
+  <!-- ORELHAS EXTERNAS -->
+  <polygon points="18,15 10,2 20,12" fill="#0b0f1a"/>
+  <polygon points="46,15 54,2 44,12" fill="#0b0f1a"/>
+  
+  <!-- OLHOS -->
+  <circle cx="26" cy="24" r="2.5" fill="#0b0f1a"/>
+  <circle cx="38" cy="24" r="2.5" fill="#0b0f1a"/>
+  
+  <!-- FOCINHO -->
+  <circle cx="32" cy="34" r="5" fill="#e0e0e0"/>
+  
+  <!-- NARIZ -->
+  <circle cx="32" cy="34" r="1.8" fill="#0b0f1a"/>
+</svg>
