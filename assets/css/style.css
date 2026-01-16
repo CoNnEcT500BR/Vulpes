@@ -365,12 +365,14 @@ a {
 }
 
 .fox-body,
-.fox-head {
+.fox-head,
+.fox-ear {
   transition: fill 0.3s ease;
 }
 
 .fox:hover .fox-body,
-.fox:hover .fox-head {
+.fox:hover .fox-head,
+.fox:hover .fox-ear {
   fill: #0078ff;
 }
 
